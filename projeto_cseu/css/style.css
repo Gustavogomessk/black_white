@@ -1,0 +1,201 @@
+body{
+    background-color: #cbf5e6;
+}
+
+header h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+header h1 img {
+    position: absolute;
+    left: 165px;
+    top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+.barra_navegacao{
+    display: flex;
+    justify-content:space-between;
+    padding: 12px;
+    text-decoration: none;
+    background-color: #222;
+    border-radius: 60px;
+    font-size: 20px;
+}
+
+.barra_navegacao a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 40px;
+}
+
+.barra_navegacao a.ativo {
+    background-color: #ffcc00;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+section{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                  
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                  
+    text-align: center;
+}
+
+a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+.card-atividade {
+    font-family: sans-serif;
+    font-size: 30px;
+    width: 800px;
+    background-color:#ffcc00;
+    padding: 20px;
+    text-align: center;
+    border-radius: 60px;
+    box-shadow: 0 4px 15px #222;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    max-width: 800px;     
+    margin: 0 auto;       
+    text-align: center;
+    bottom: 10px;
+ 
+}
+
+.card-atividade img {
+    width: 70%;
+    height: 40%;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0 4px 15px #222;
+}
+.card-atividade h2{
+    background-color: #222;
+    width: 500px;
+    border-radius: 15px;
+    color: #cbf5e6;
+}
+
+.card-atividade p {
+    color: #000000;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    align-items: center;
+}
+
+
+.unidade{
+    background-color: #ffcc00;
+    width: 700px;
+    height: 200px;
+    border-radius: 30px;  
+    box-shadow: 0 4px 15px #222; 
+}
+
+.unidade h2{
+    background-color: #222;
+    color: #ffcc00;
+    width: 300px;
+    border-radius: 15px;    
+}
+
+.unidade a{
+    font-size: 24px;
+    width: 150px;
+    background-color: #222;
+    color: #ffcc00;
+    border-radius: 15px;
+
+}
+
+
+
+.esportes{
+    display: flex;
+    justify-content: center;
+    background-color: #ffcc00;
+    border-radius: 60px;
+    box-shadow: 0 4px 15px #222;
+}
+
+.esportes h2{
+    background-color: #222;
+    width: 500px;
+    border-radius: 15px;
+    color: #cbf5e6;
+}   
+
+.esportes a{
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    margin-top: -40px;
+    background-color: #222;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+
+section h2{
+    font-size: 40;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+section p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+
+.video-clube{
+
+    background-color: #ffcc00;
+    border-radius: 60px;
+    width: 800px;
+    height: 600px;
+    box-shadow: 0 4px 15px #222;
+}
+
+.video-clube h2{
+    background-color: #222;
+    width: 500px;
+    border-radius: 15px;
+    color: #cbf5e6;
+}
+
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: #222;
+    border-radius:  8px;
+    color: #cbf5e6;
+    text-decoration: wavy;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

@@ -1,0 +1,248 @@
+body{
+    background-color: #cbf5e6;
+    font-family: system-ui, sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+header h1 img {
+    position: absolute;
+    left: 165px;
+    top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+.barra_navegacao{
+    display: flex;
+    justify-content:space-between;
+    padding: 12px;
+    text-decoration: none;
+    background-color: #222;
+    border-radius: 60px;
+    font-size: 20px;
+}
+
+.barra_navegacao a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 40px;
+}
+
+.barra_navegacao a.ativo {
+    background-color: #ffcc00;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+section{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                  
+    text-align: center;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                  
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.evento {
+    background-color: #ffcc00;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    box-shadow: 0 4px 15px #222;
+}
+
+.evento h2 {
+    background-color: #222;
+    color: #ffcc00; 
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.evento img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.evento p {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.evento p.descricao {
+    background-color: #222;
+    color: #ffcc00;
+    border-radius: 10px;
+}
+
+.show {
+    background-color: #ffcc00;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    box-shadow: 0 4px 15px #222;
+}
+
+.show h2 {
+    background-color: #222;
+    color: #ffcc00; 
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.show img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.show p {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.show p.descricao {
+    background-color: #222;
+    color: #ffcc00;
+    border-radius: 10px;
+}
+
+.torneio {
+    background-color: #ffcc00;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    box-shadow: 0 4px 15px #222;
+}
+
+.torneio h2 {
+    background-color: #222;
+    color: #ffcc00; 
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.torneio img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.torneio p {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.torneio p.descricao {
+    background-color: #222;
+    color: #ffcc00;
+    border-radius: 10px;
+}
+
+
+.torneibasquete {
+    background-color: #ffcc00;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    box-shadow: 0 4px 15px #222;
+}
+
+.torneibasquete h2 {
+    background-color: #222;
+    color: #ffcc00; 
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.torneibasquete img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.torneibasquete p {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.torneibasquete p.descricao {
+    background-color: #222;
+    color: #ffcc00;
+    border-radius: 10px;
+}
+
+.confraternização {
+    background-color: #ffcc00;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    box-shadow: 0 4px 15px #222;
+}
+
+.confraternização h2 {
+    background-color: #222;
+    color: #ffcc00; 
+    width: 250px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+.confraternização img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.confraternização p {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.confraternização p.descricao {
+    background-color: #222;
+    color: #ffcc00;
+    border-radius: 10px;
+}
+
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: #222;
+    border-radius:  8px;
+    color: #cbf5e6;
+    text-decoration: wavy;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
