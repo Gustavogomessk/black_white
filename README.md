@@ -154,4 +154,4 @@ Essa organização facilita a localização dos arquivos e mantém o projeto est
 - Danilo
 - Paola
 - Mateus
-- Lucas
+- Filipe
