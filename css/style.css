@@ -1,13 +1,13 @@
-body{
+body.page-index{
     background-color: #cbf5e6;
 }
 
-header h1 {
+body.page-index header h1 {
     text-align: center;
     font-family: sans-serif;
 }
 
-header h1 img {
+body.page-index header h1 img {
     position: absolute;
     left: 165px;
     top: 10px;
@@ -17,7 +17,7 @@ header h1 img {
 }
 
 
-.barra_navegacao{
+body.page-index .barra_navegacao{
     display: flex;
     justify-content:space-between;
     padding: 12px;
@@ -27,24 +27,24 @@ header h1 img {
     font-size: 20px;
 }
 
-.barra_navegacao a{
+body.page-index .barra_navegacao a{
     color: white;
     text-decoration: none;
     padding: 12px 20px;
     border-radius: 40px;
 }
 
-.barra_navegacao a.ativo {
+body.page-index .barra_navegacao a.ativo {
     background-color: #ffcc00;
     color: black;
 }
-a{
+body.page-index a{
     text-decoration: none;
     color: aliceblue;
 }
 
 
-section{
+body.page-index section{
 
     display: flex;
     flex-direction: column;
@@ -53,7 +53,7 @@ section{
     text-align: center;
 }
 
-main{
+body.page-index main{
     display: flex;
     flex-direction: column;
     align-items: center;      
@@ -61,13 +61,13 @@ main{
     text-align: center;
 }
 
-a{
+body.page-index a{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 
 
-.card-atividade {
+body.page-index .card-atividade {
     font-family: sans-serif;
     font-size: 30px;
     width: 800px;
@@ -86,21 +86,21 @@ a{
  
 }
 
-.card-atividade img {
+body.page-index .card-atividade img {
     width: 70%;
     height: 40%;
     object-fit: cover;
     border-radius: 6px;
     box-shadow: 0 4px 15px #222;
 }
-.card-atividade h2{
+body.page-index .card-atividade h2{
     background-color: #222;
     width: 500px;
     border-radius: 15px;
     color: #cbf5e6;
 }
 
-.card-atividade p {
+body.page-index .card-atividade p {
     color: #000000;
     font-size: 15px;
     line-height: 1.5;
@@ -109,7 +109,7 @@ a{
 }
 
 
-.unidade{
+body.page-index .unidade{
     background-color: #ffcc00;
     width: 700px;
     height: 200px;
@@ -117,14 +117,14 @@ a{
     box-shadow: 0 4px 15px #222; 
 }
 
-.unidade h2{
+body.page-index .unidade h2{
     background-color: #222;
     color: #ffcc00;
     width: 300px;
     border-radius: 15px;    
 }
 
-.unidade a{
+body.page-index .unidade a{
     font-size: 24px;
     width: 150px;
     background-color: #222;
@@ -135,7 +135,7 @@ a{
 
 
 
-.esportes{
+body.page-index .esportes{
     display: flex;
     justify-content: center;
     background-color: #ffcc00;
@@ -143,14 +143,14 @@ a{
     box-shadow: 0 4px 15px #222;
 }
 
-.esportes h2{
+body.page-index .esportes h2{
     background-color: #222;
     width: 500px;
     border-radius: 15px;
     color: #cbf5e6;
 }   
 
-.esportes a{
+body.page-index .esportes a{
     padding-bottom: 30px;
     margin-bottom: 10px;
     margin-top: -40px;
@@ -161,19 +161,19 @@ a{
 
 
 
-section h2{
+body.page-index section h2{
     font-size: 40;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
-section p{
+body.page-index section p{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
     padding-bottom: 20px;
     margin: 20px;
 }
 
-.video-clube{
+body.page-index .video-clube{
 
     background-color: #ffcc00;
     border-radius: 60px;
@@ -182,7 +182,7 @@ section p{
     box-shadow: 0 4px 15px #222;
 }
 
-.video-clube h2{
+body.page-index .video-clube h2{
     background-color: #222;
     width: 500px;
     border-radius: 15px;
@@ -190,7 +190,7 @@ section p{
 }
 
 
-footer{
+body.page-index footer{
     width: 100%;
     height: 500px;
     background-color: #222;
@@ -199,3 +199,3340 @@ footer{
     text-decoration: wavy;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+/* atleta.css */
+body.page-atletas{
+    background-color:  #cbf5e6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body.page-atletas header h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body.page-atletas header h1 img {
+    position: absolute;
+    left: 165px;
+    top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+body.page-atletas .barra_navegacao{
+    display: flex;
+    justify-content:space-between;
+    padding: 12px;
+    text-decoration: none;
+    background-color: #222;
+    border-radius: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+    body.page-atletas .barra_navegacao a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 40px;
+}
+
+body.page-atletas .barra_navegacao a.ativo {
+    background-color: #ffcc00;
+    color: black;
+}
+
+
+
+
+body.page-atletas .atletas h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    background-color:#f7c319;
+    width: 90%;
+    border-radius: 40px;
+}
+
+body.page-atletas .atletas p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    background-color: #03015d;
+    color: #ffffff;
+    border-radius: 20px;
+    width: 800px;
+    height:70px;
+    margin-top: 11px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+body.page-atletas a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+body.page-atletas button{
+    background-color: aliceblue;
+    border-radius: 30px;
+    font-family: poppins;
+
+}
+body.page-atletas section{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                  
+   
+    text-align: center;
+
+}
+
+body.page-atletas main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                  
+   text-align: center;
+}
+
+body.page-atletas section h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    background-color:#222;
+    color: #ffffff;
+    width: 90%;
+    border-radius: 40px;
+}
+
+body.page-atletas section h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    background-color:#f7c319;
+    width: 90%;
+    border-radius: 40px;
+}
+
+body.page-atletas .video-clube{
+    width: 800px;
+    height: 600px;
+    background-color: #f7c319;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px #222;
+}
+
+body.page-atletas .video-clube h2{
+    background-color: #222;
+    color: #ffcc00; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;     
+    align-content: center;
+    margin: 30px auto;
+}
+
+body.page-atletas .card-atividade {
+    width: 1000px;
+    background-color: #f7c319;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px #222;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    max-width: 600px;     
+    margin: 0 auto;       
+    text-align: center;
+    bottom: 10px;
+    
+}
+
+body.page-atletas .card-atividade img {
+    width: 70%;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+body.page-atletas .card-atividade h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    background-color: #222;
+    width: 200px;
+    color: #ffcc00;
+    justify-self: center;
+}
+
+body.page-atletas .card-atividade p {
+    color: #000000;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+body.page-atletas .card-formulario{
+    background-color: #ffd712;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    width: 400px;     
+    margin: 0 auto;     
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;                 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body.page-atletas .card-formulario input {
+    border-radius: 30px;
+}
+body.page-atletas .card-formulario select{
+    border-radius: 30px;
+}
+
+body.page-atletas .card-formulario textarea{
+    border-radius: 30px;
+}
+body.page-atletas .card-formulario h2{
+    color: #ffcc00;
+}
+
+body.page-atletas .card-formulario a{
+    background-color: #03015d;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+
+}
+
+body.page-atletas .card-tabela{
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 200px;
+    border-radius: 30px;
+    background-color: #f7c319;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body.page-atletas .card-tabela h2{
+    color: #ffcc00;
+}
+
+body.page-atletas .card-tabela table{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    width: 80%;
+    border: #0c6674 ;
+    text-align: left;
+}
+
+body.page-atletas .card-tabela th{
+    background-color: #222;
+    color: #ffd712;
+    border-radius: 5px;
+}
+body.page-atletas .card-tabela tr{
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+body.page-atletas footer{
+    width: 100%;
+    height: 500px;
+    background-color: #222;
+    border-radius:  8px;
+    color: #cbf5e6;
+    text-decoration: wavy;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* clube.css */
+body.page-clube{
+    background-color: #cbf5e6;
+}
+
+body.page-clube header h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body.page-clube header h1 img {
+    position: absolute;
+    left: 165px;
+    top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+body.page-clube .barra_navegacao{
+    display: flex;
+    justify-content:space-between;
+    padding: 12px;
+    text-decoration: none;
+    background-color: #222;
+    border-radius: 60px;
+    font-size: 20px;
+}
+
+body.page-clube .barra_navegacao a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 40px;
+}
+
+body.page-clube .barra_navegacao a.ativo {
+    background-color: #ffcc00;
+    color: black;
+}
+
+body.page-clube a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+body.page-clube section{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                  
+    text-align: center;
+
+}
+
+body.page-clube main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                  
+    text-align: center;
+}
+
+body.page-clube a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+body.page-clube .sobre{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15;
+    background-color: #deb100;
+    padding: 30px;
+    gap: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+}
+
+body.page-clube .sobre h2{
+    background-color: #222;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    color: #deb100;
+    
+}
+body.page-clube .sobre p{
+    width: 800px;
+    height: 220px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+body.page-clube .missao{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15;
+    background-color: #deb100;
+    padding: 30px;
+    gap: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+}
+
+body.page-clube .missao h2{
+    background-color: #222;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    color: #deb100;
+}
+
+body.page-clube .missao p{
+    width: 800px;
+    height: 150px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+body.page-clube .visao{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15;
+    background-color: #deb100;
+    padding: 30px;
+    gap: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+}
+body.page-clube .visao h2{
+    background-color: #222;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    color: #deb100;
+}
+body.page-clube .visao p{
+    width: 800px;
+    height: 150px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+body.page-clube .valores{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15;
+    background-color: #deb100;
+    padding: 30px;
+    gap: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+}
+body.page-clube .valores h2{
+    background-color: #222;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    color: #deb100;
+}
+body.page-clube .valores ul{
+    width: 300px;
+    height: 200px;
+    text-align: left;
+    background-color: #222;
+    color: #fff;
+    border-radius: 30px;
+    padding: 30px;
+}
+body.page-clube .valores li{
+    border: "1" cellspacing="0";
+} 
+
+
+body.page-clube .estrutura h2{
+    background-color: #222;
+    width: 200px;
+    height: 80px;
+    align-content: center;
+    border-radius: 15px;
+    color:#deb100;
+
+    
+}
+body.page-clube .estrutura img{
+    width: 80%;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+}
+
+body.page-clube .lazer{
+    width: 80%;
+    background-color: #deb100;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+}
+body.page-clube .lazer h2{
+    background-color: #222;
+    width: 200px;
+    margin: 15px;
+    border-radius: 15px;
+    color: #deb100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+body.page-clube .lazer p{
+    margin: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #222;
+    color: #fff;
+    width: 700px;
+    height: 150px;
+    border-radius: 30px;
+    align-content: center;
+
+}
+body.page-clube .lazer img{
+    width: 600px;
+    border-radius: 30px;
+}
+
+body.page-clube .evento{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15;
+    background-color: #deb100;
+    padding: 30px;
+    gap: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+    width: 75%;
+}
+body.page-clube .evento h2{
+    background-color: #222;
+    width: 200px;
+    margin: 15px;
+    border-radius: 15px;
+    color: #deb100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body.page-clube .evento p{
+    margin: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #222;
+    color: #fff;
+    width: 700px;
+    height: 100px;
+    border-radius: 30px;
+    align-content: center;
+
+}
+body.page-clube .evento img{
+    width: 700px;
+    border-radius: 30px;
+}
+
+body.page-clube .evento a{
+    background-color: rgb(14, 14, 75);
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 150px;
+
+}
+body.page-clube .tabela{
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+    background-color: #f7c319;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body.page-clube .tabela table{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    width: 80%;
+    border: #0c6674 ;
+    text-align: left;
+}
+body.page-clube .tabela h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #222;
+    width: 450px;
+    border-radius: 15px;
+    color: #deb100;
+}
+body.page-clube .tabela th{
+    background-color: #222;
+    color: #ffd712;
+    border-radius: 5px;
+}
+body.page-clube .tabela tr{
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+body.page-clube .valores{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15;
+    background-color: #deb100;
+    padding: 30px;
+    gap: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+}
+body.page-clube .regras{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15;
+    background-color: #deb100;
+    padding: 30px;
+    gap: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+}
+body.page-clube .regras h2{
+    background-color: #222;
+    color:#deb100;
+    width: 450px;
+    border-radius: 15px;
+    
+}
+
+body.page-clube .regras ul{
+    align-content: center;
+    background-color: #222;
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+body.page-clube footer{
+    width: 100%;
+    height: 500px;
+    background-color: #222;
+    border-radius:  8px;
+    text-decoration: wavy;
+    color: #cbf5e6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* contato.css */
+body.page-contato{
+    background-color:  #cbf5e6;
+}
+
+body.page-contato header h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body.page-contato header h1 img {
+    position: absolute;
+    left: 165px;
+    top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+body.page-contato .barra_navegacao{
+    display: flex;
+    justify-content:space-between;
+    padding: 12px;
+    text-decoration: none;
+    background-color: #222;
+    border-radius: 60px;
+    font-size: 20px;
+}
+
+body.page-contato .barra_navegacao a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 40px;
+}
+
+body.page-contato .barra_navegacao a.ativo {
+    background-color: #ffcc00;
+    color: black;
+}
+
+body.page-contato a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+body.page-contato button{
+    background-color: aliceblue;
+    border-radius: 30px;
+    font-family: poppins;
+
+}
+
+body.page-contato section{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                  
+    text-align: center;
+
+}
+body.page-contato main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                  
+    text-align: center;
+}
+
+body.page-contato a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+body.page-contato .contato{
+    height: 450px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15;
+    background-color: #deb100;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+}
+body.page-contato .contato h2{
+    background-color: #222;
+    width: 350px;
+    height: 40px;
+    border-radius: 15px;
+    color: #deb100;
+}
+
+body.page-contato .contato p{
+    width: 500px;
+    height: 40px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+body.page-contato .contato ul{
+    background-color: #222;
+    width: 300px;
+    height: 80px;
+    align-content: center;
+    border-radius: 15px;
+    color: #fff;
+}
+
+body.page-contato .mensagem{
+    background-color: #ffd712;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    width: 400px;   
+    height: 500px;  
+    margin: 0 auto;     
+    text-align: center;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                 
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body.page-contato .mensagem h2{
+    background-color: #222;
+    color: #ffcc00;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+body.page-contato .mensagem input{
+    border-radius: 15px;
+    width: 200px;
+    
+}
+body.page-contato .mensagem a{
+    background-color: #240738;
+    color: #ffcc00;
+    border-radius: 10px;
+    
+}
+
+body.page-contato .mensagem textarea{
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+
+}
+
+body.page-contato footer{
+    width: 100%;
+    height: 500px;
+    background-color: #222;
+    border-radius:  8px;
+    color: #cbf5e6;
+    text-decoration: wavy;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* dependentes.css */
+body.page-dependentes{
+    background-color: beige;
+}
+
+body.page-dependentes header h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body.page-dependentes header h1 img {
+    position: absolute;
+    left: 165px;
+    top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+body.page-dependentes .barra_navegacao{
+    display: flex;
+    justify-content:space-between;
+    padding: 12px;
+    text-decoration: none;
+    background-color: #222;
+    border-radius: 60px;
+}
+
+body.page-dependentes a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+body.page-dependentes button{
+    background-color: aliceblue;
+    border-radius: 30px;
+    font-family: poppins;
+}
+
+body.page-dependentes main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                  
+    text-align: center;
+}
+body.page-dependentes section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                  
+    text-align: center;
+}
+
+body.page-dependentes .dependente{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#f7c319;
+    display: flex;
+    width: 50%;
+    border-radius: 40px;
+    box-shadow: 0 4px 15px #222;
+}
+
+body.page-dependentes .dependente h2{
+    background-color: #222;
+    width: 200px;
+    height: 60px;
+    align-content: center;
+    border-radius: 15px;
+    color: #f7c319;
+}
+
+body.page-dependentes .dependente p{
+    background-color: #222;
+    height: 60px;
+    border-radius: 15px;
+    align-content: center;
+    color: #f7c319;
+    font-size: 18px;
+
+}
+
+body.page-dependentes .dependente img{
+    width: 60%;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+
+body.page-dependentes .cadastrar{
+    background-color: #ffd712;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    width: 400px;   
+    height: 500px;  
+    margin: 0 auto;     
+    text-align: center;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                 
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body.page-dependentes .cadastrar h2{
+    background-color: #222;
+    width: 200px;
+    border-radius: 15px;
+    color: aliceblue;
+}
+
+body.page-dependentes .cadastrar input{
+    border-radius: 15px;
+    width: 200px;
+}
+
+body.page-dependentes .card-tabela{
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 200px;
+    border-radius: 30px;
+    background-color: #f7c319;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body.page-dependentes .card-tabela table{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    width: 80%;
+    border: #0c6674 ;
+    text-align: left;
+}
+
+body.page-dependentes .card-tabela th{
+    background-color: #222;
+    color: #ffd712;
+    border-radius: 5px;
+}
+body.page-dependentes .card-tabela tr{
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+body.page-dependentes footer{
+    width: 100%;
+    height: 500px;
+    background-color: #222;
+    border-radius:  8px;
+    color: #cbf5e6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* eventos.css */
+body.page-eventos{
+    background-color: #cbf5e6;
+    font-family: system-ui, sans-serif;
+}
+
+body.page-eventos header h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body.page-eventos header h1 img {
+    position: absolute;
+    left: 165px;
+    top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+body.page-eventos .barra_navegacao{
+    display: flex;
+    justify-content:space-between;
+    padding: 12px;
+    text-decoration: none;
+    background-color: #222;
+    border-radius: 60px;
+    font-size: 20px;
+}
+
+body.page-eventos .barra_navegacao a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 40px;
+}
+
+body.page-eventos .barra_navegacao a.ativo {
+    background-color: #ffcc00;
+    color: black;
+}
+
+body.page-eventos a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+body.page-eventos section{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                  
+    text-align: center;
+
+}
+
+body.page-eventos main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                  
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+body.page-eventos .evento {
+    background-color: #ffcc00;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    box-shadow: 0 4px 15px #222;
+}
+
+body.page-eventos .evento h2 {
+    background-color: #222;
+    color: #ffcc00; 
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+body.page-eventos .evento img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+body.page-eventos .evento p {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+body.page-eventos .evento p.descricao {
+    background-color: #222;
+    color: #ffcc00;
+    border-radius: 10px;
+}
+
+body.page-eventos .show {
+    background-color: #ffcc00;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    box-shadow: 0 4px 15px #222;
+}
+
+body.page-eventos .show h2 {
+    background-color: #222;
+    color: #ffcc00; 
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+body.page-eventos .show img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+body.page-eventos .show p {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+body.page-eventos .show p.descricao {
+    background-color: #222;
+    color: #ffcc00;
+    border-radius: 10px;
+}
+
+body.page-eventos .torneio {
+    background-color: #ffcc00;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    box-shadow: 0 4px 15px #222;
+}
+
+body.page-eventos .torneio h2 {
+    background-color: #222;
+    color: #ffcc00; 
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+body.page-eventos .torneio img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+body.page-eventos .torneio p {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+body.page-eventos .torneio p.descricao {
+    background-color: #222;
+    color: #ffcc00;
+    border-radius: 10px;
+}
+
+
+body.page-eventos .torneibasquete {
+    background-color: #ffcc00;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    box-shadow: 0 4px 15px #222;
+}
+
+body.page-eventos .torneibasquete h2 {
+    background-color: #222;
+    color: #ffcc00; 
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+body.page-eventos .torneibasquete img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+body.page-eventos .torneibasquete p {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+body.page-eventos .torneibasquete p.descricao {
+    background-color: #222;
+    color: #ffcc00;
+    border-radius: 10px;
+}
+
+body.page-eventos .confraternização {
+    background-color: #ffcc00;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    box-shadow: 0 4px 15px #222;
+}
+
+body.page-eventos .confraternização h2 {
+    background-color: #222;
+    color: #ffcc00; 
+    width: 250px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+body.page-eventos .confraternização img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+body.page-eventos .confraternização p {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+body.page-eventos .confraternização p.descricao {
+    background-color: #222;
+    color: #ffcc00;
+    border-radius: 10px;
+}
+
+
+body.page-eventos footer{
+    width: 100%;
+    height: 500px;
+    background-color: #222;
+    border-radius:  8px;
+    color: #cbf5e6;
+    text-decoration: wavy;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* loja.css */
+body.page-lojas{
+    background-color: #cbf5e6;
+    font-family: system-ui, sans-serif;
+}
+
+body.page-lojas header h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body.page-lojas header h1 img {
+    position: absolute;
+    left: 165px;
+    top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+body.page-lojas .barra_navegacao{
+    display: flex;
+    justify-content:space-between;
+    padding: 12px;
+    text-decoration: none;
+    background-color: #222;
+    border-radius: 60px;
+    font-size: 20px;
+}
+
+body.page-lojas .barra_navegacao a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 40px;
+}
+
+body.page-lojas .barra_navegacao a.ativo {
+    background-color: #ffcc00;
+    color: black;
+}
+
+body.page-lojas a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+body.page-lojas section{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                  
+    text-align: center;
+
+}
+
+body.page-lojas main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                  
+    text-align: center;
+    margin-top: 30px;
+}
+
+body.page-lojas img{
+    border-radius: 20px;
+}
+
+body.page-lojas section{
+    font-size: 20px;
+}
+
+body.page-lojas .loja {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                  
+    text-align: center;
+    margin-top: 30px;
+    background-color: #ffcc00;
+    border-radius: 20px;
+}
+
+body.page-lojas .loja h2 {
+    background-color: #222;
+    width: 200px;
+    border-radius: 20px;
+    color: #ffcc00;
+}
+
+body.page-lojas .loja p {
+    background-color: #222;
+    width: 500px;
+    text-align: justify;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+body.page-lojas .roupas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                  
+    text-align: center;
+    margin-top: 30px;
+}
+
+body.page-lojas .roupas h2{
+   font-size: 34px;
+   background-color: #222;
+   color: #ffcc00;
+   width: 1100px;
+   border-radius: 15px;
+}
+
+
+body.page-lojas .blusa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    margin-top: 30px;
+    background-color: #ffcc00;
+    border-radius: 30px;
+    
+}
+
+body.page-lojas .descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    text-align: left;
+}
+
+body.page-lojas .blusa h3 {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+body.page-lojas .blusa p {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+
+body.page-lojas .camiseta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    margin-top: 30px;
+    background-color: #ffcc00;
+    border-radius: 30px;
+    
+}
+
+body.page-lojas .descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    text-align: left;
+}
+
+body.page-lojas .camiseta h3 {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+body.page-lojas .camiseta p {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+body.page-lojas .short {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    margin-top: 30px;
+    background-color: #ffcc00;
+    border-radius: 30px;
+    
+}
+
+body.page-lojas .descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    text-align: left;
+}
+
+body.page-lojas .short h3 {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+body.page-lojas .short p {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+body.page-lojas .calcados h2{
+   font-size: 34px;
+   background-color: #222;
+   color: #ffcc00;
+   width: 1100px;
+   border-radius: 15px;
+}
+
+
+body.page-lojas .calcado {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    margin-top: 30px;
+    background-color: #ffcc00;
+    border-radius: 30px;
+    
+}
+
+body.page-lojas .descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    text-align: left;
+}
+
+body.page-lojas .calcado h3 {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+body.page-lojas .calcado p {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+
+body.page-lojas .sapato {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    margin-top: 30px;
+    background-color: #ffcc00;
+    border-radius: 30px;
+    
+}
+
+body.page-lojas .descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    text-align: left;
+}
+
+body.page-lojas .sapato h3 {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+body.page-lojas .sapato p {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+body.page-lojas .meias {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    margin-top: 30px;
+    background-color: #ffcc00;
+    border-radius: 30px;
+    
+    
+}
+
+body.page-lojas .descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    text-align: left;
+}
+
+body.page-lojas .meias h3 {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+body.page-lojas .meias p {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+
+body.page-lojas .objeto h2{
+   font-size: 34px;
+   background-color: #222;
+   color: #ffcc00;
+   width: 1100px;
+   border-radius: 15px;
+}
+
+body.page-lojas .bola {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    margin-top: 30px;
+    background-color: #ffcc00;
+    border-radius: 30px;
+    
+    
+}
+
+body.page-lojas .descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    text-align: left;
+}
+
+body.page-lojas .bola h3 {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+body.page-lojas .bola p {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+
+body.page-lojas .bola-futebol {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    margin-top: 30px;
+    background-color: #ffcc00;
+    border-radius: 30px;
+    
+    
+}
+
+body.page-lojas .descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    text-align: left;
+}
+
+body.page-lojas .futebol h3 {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+body.page-lojas .futebol p {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+
+body.page-lojas .bola-volei {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    margin-top: 30px;
+    background-color: #ffcc00;
+    border-radius: 30px;
+    
+    
+}
+
+body.page-lojas .descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    text-align: left;
+}
+
+body.page-lojas .volei h3 {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+body.page-lojas .volei p {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+
+body.page-lojas footer{
+    width: 100%;
+    height: 500px;
+    background-color: #222;
+    border-radius:  8px;
+    color: #cbf5e6;
+    text-decoration: wavy;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* modalidades.css */
+body.page-modalidades{
+    background-color: #cbf5e6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body.page-modalidades header h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body.page-modalidades header h1 img {
+    position: absolute;
+    left: 165px;
+    top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+body.page-modalidades .barra_navegacao{
+    display: flex;
+    justify-content:space-between;
+    padding: 12px;
+    text-decoration: none;
+    background-color: #222;
+    border-radius: 60px;
+    font-size: 20px;
+}
+
+body.page-modalidades .barra_navegacao a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 40px;
+}
+
+body.page-modalidades .barra_navegacao a.ativo {
+    background-color: #ffcc00;
+    color: black;
+}
+
+body.page-modalidades .barra_navegacao a.ativo {
+    background-color: #ffcc00;
+    color: black;
+}
+body.page-modalidades a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+body.page-modalidades main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                  
+    text-align: center;
+}
+
+body.page-modalidades section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                  
+    text-align: center;
+}
+
+body.page-modalidades .conheca{
+    background-color: #ffcc00;
+    width: 800px;
+    justify-content: center;    
+    align-items: center;
+    border-radius: 60px;
+    box-shadow: 0 4px 15px #222;
+    
+}
+body.page-modalidades .conheca h2{
+    background-color: #222;
+    width: 500px;
+    border-radius: 15px;
+    color: #ffcc00;
+    width: 300px;
+}
+
+body.page-modalidades .video{
+    width: 800px;
+    height: 500px;
+    border-radius: 60px;
+    box-shadow: 0 4px 15px #222;
+    background-color: #ffcc00;
+}
+
+body.page-modalidades .video h2{
+    background-color: #222;
+    width: 700px;
+    border-radius: 15px;
+    color: #ffcc00;
+   
+}
+
+body.page-modalidades .tabela_modalidades{
+    background-color: #ffcc00;
+    width: 800px;
+    justify-content: center;    
+    align-items: center;
+    border-radius: 60px;
+    box-shadow: 0 4px 15px #222;
+}
+
+body.page-modalidades .tabela_modalidades table{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    width: 80%;
+    border: #0c6674 ;
+    text-align: left;
+}
+
+body.page-modalidades .tabela_modalidades th{
+    background-color: #222;
+    color: #ffd712;
+    border-radius: 5px;
+}
+body.page-modalidades .tabela_modalidades tr{
+    background-color: #ffffff;
+    border-radius: 5px;
+
+}
+
+body.page-modalidades .turmas{
+    background-color: #ffcc00;
+    width: 800px;
+    justify-content: center;    
+    align-items: center;
+    border-radius: 60px;
+    box-shadow: 0 4px 15px #222;
+}
+
+body.page-modalidades .turmas h2{
+    background-color: #222;
+    width: 350px;
+    border-radius: 15px;
+    color: #ffcc00;
+}
+
+body.page-modalidades .turmas a{
+    background-color: #222;
+    color: #ffcc00;
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+body.page-modalidades footer{
+    width: 100%;
+    height: 500px;
+    background-color: #222;
+    border-radius:  8px;
+    color: #cbf5e6;
+    text-decoration: wavy;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* orcamento.css */
+body.page-orcamento-hospedagem{
+    background-color:  #cbf5e6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    justify-content: center;
+
+}
+
+body.page-orcamento-hospedagem header h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body.page-orcamento-hospedagem header h1 img {
+    position: absolute;
+    left: 165px;
+    top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+body.page-orcamento-hospedagem .barra_navegacao{
+    display: flex;
+    justify-content:space-between;
+    padding: 12px;
+    text-decoration: none;
+    background-color: #222;
+    border-radius: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+    body.page-orcamento-hospedagem .barra_navegacao a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 40px;
+}
+
+body.page-orcamento-hospedagem .barra_navegacao a.ativo {
+    background-color: #ffcc00;
+    color: black;
+}
+
+body.page-orcamento-hospedagem .orcamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffcc00;
+    width: 800px;
+    height: 200px;
+    margin: 50px auto 30px auto;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+}
+
+body.page-orcamento-hospedagem .orcamento h2{
+    background-color: #222;
+    color: #ffcc00;
+    width: 350px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 50px;
+   
+}
+
+body.page-orcamento-hospedagem .orcamento p{
+    justify-content: center;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 50px;
+    background-color: #222;
+    color: #fffdf5;
+    width: 600px;
+    border-radius: 30px; 
+}
+
+body.page-orcamento-hospedagem .servicos{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffcc00;
+    width: 800px;
+    height: 400px;
+    margin: 50px auto 30px auto;
+    padding-top: 10px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+
+}
+
+body.page-orcamento-hospedagem .servicos h2{
+    justify-content: center;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 100px;
+    background-color: #222;
+    color: #ffcc00;
+    width: 300px;
+    border-radius: 30px; 
+    margin-left: 250px;
+}
+
+body.page-orcamento-hospedagem .servicos ul{
+    justify-content: center;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 50px;
+    background-color: #222;
+    color: #fffffe;
+    width: 400px;
+    border-radius: 30px; 
+    margin-left: 200px;
+}
+
+body.page-orcamento-hospedagem .servicos li{
+    justify-content: center;
+    margin-left: 100px;
+    width: 200px;
+    border-radius: 30px; 
+}
+
+body.page-orcamento-hospedagem .cadastro-reserva{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffcc00;
+    width: 800px;
+    height: 700px;
+    margin: 50px auto 30px auto;
+    padding-top: 10px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+}
+
+body.page-orcamento-hospedagem .cadastro-reserva h2{
+    justify-content: center;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 100px;
+    background-color: #222;
+    color: #ffcc00;
+    width: 300px;
+    border-radius: 30px; 
+    margin-left: 250px;
+
+}
+
+body.page-orcamento-hospedagem .cadastro-reserva form{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body.page-orcamento-hospedagem .cadastro-reserva input{
+    border-radius: 15px;
+    width: 200px;
+}
+
+body.page-orcamento-hospedagem .cadastro-reserva label{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: #222;
+    color: aliceblue;
+    border-radius: 7px;
+
+}
+
+body.page-orcamento-hospedagem .cadastro-reserva textarea{
+    border-radius: 15px;
+}
+
+body.page-orcamento-hospedagem .cadastro-reserva a{
+    display: inline-block;
+    background-color: #280d51;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+body.page-orcamento-hospedagem .resumo-financeiro{
+    background-color: #ffcc00;
+    width: 800px;
+    height: 200px;
+    justify-content: center;    
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+    margin: 50px auto 30px auto;
+}
+
+body.page-orcamento-hospedagem .resumo-financeiro h2{
+    justify-content: center;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 100px;
+    background-color: #222;
+    color: #ffcc00;
+    width: 300px;
+    border-radius: 30px; 
+    margin-left: 250px;
+
+}
+
+body.page-orcamento-hospedagem .resumo-financeiro table{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    text-align: left;
+    margin: 50px auto 30px auto;
+}
+
+body.page-orcamento-hospedagem .resumo-financeiro th{
+    background-color: #222;
+    color: #ffd712;
+    border-radius: 5px;
+}
+body.page-orcamento-hospedagem .resumo-financeiro tr{
+    background-color: #ffffff;
+    border-radius: 5px;
+
+}
+
+
+body.page-orcamento-hospedagem footer{
+    width: 100%;
+    height: 500px;
+    background-color: #222;
+    border-radius:  8px;
+    text-decoration: wavy;
+    color: #cbf5e6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+
+}
+
+/* orcamento.dominios.css */
+body.page-orcamento-dominios{
+    background-color:  #cbf5e6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+body.page-orcamento-dominios header h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+body.page-orcamento-dominios header h1 img {
+    position: absolute;
+    left: 165px;
+    top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+body.page-orcamento-dominios .barra_navegacao{
+    display: flex;
+    justify-content:space-between;
+    padding: 12px;
+    text-decoration: none;
+    background-color: #222;
+    border-radius: 60px;
+    font-size: 20px;
+}
+
+body.page-orcamento-dominios .barra_navegacao a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 40px;
+}
+
+body.page-orcamento-dominios .barra_navegacao a.ativo {
+    background-color: #ffcc00;
+    color: black;
+}
+
+body.page-orcamento-dominios .orcamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffcc00;
+    width: 800px;
+    height: 300px;
+    margin: 50px auto 30px auto;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+    padding-top: 15px;
+}
+
+body.page-orcamento-dominios .orcamento h2{
+    background-color: #222;
+    color: #ffcc00;
+    width: 350px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 50px;
+   
+}
+
+body.page-orcamento-dominios .orcamento p{
+    justify-content: center;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    background-color: #222;
+    color: #fffdf5;
+    width: 600px;
+    border-radius: 30px; 
+}
+
+body.page-orcamento-dominios .hostgator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffcc00;
+    width: 800px;
+    height: 400px;
+    margin: 50px auto 30px auto;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+    padding-top: 15px;
+}
+
+body.page-orcamento-dominios .hostgator h2{
+    background-color: #222;
+    color: #ffcc00;
+    width: 350px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 50px;
+   
+}
+
+body.page-orcamento-dominios .hostgator p{
+    justify-content: center;
+    font-size: 20px;
+    margin-left: 20px;
+    background-color: #222;
+    color: #fffdf5;
+    width: 600px;
+    border-radius: 30px; 
+}
+
+body.page-orcamento-dominios .hostgator table{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    text-align: left;
+    margin: 50px auto 30px auto;
+}
+
+body.page-orcamento-dominios .hostgator th{
+    background-color: #222;
+    color: #ffd712;
+    
+}
+body.page-orcamento-dominios .hostgator tr{
+    background-color: #ffffff;
+    
+}
+
+body.page-orcamento-dominios .hostinger{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffcc00;
+    width: 800px;
+    height: 400px;
+    margin: 50px auto 30px auto;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+    padding-top: 15px;
+}
+
+body.page-orcamento-dominios .hostinger h2{
+    background-color: #222;
+    color: #ffcc00;
+    width: 350px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 50px;
+   
+}
+
+body.page-orcamento-dominios .hostinger p{
+    justify-content: center;
+    font-size: 20px;
+    margin-left: 20px;
+    background-color: #222;
+    color: #fffdf5;
+    width: 600px;
+    border-radius: 30px; 
+}
+
+body.page-orcamento-dominios .hostinger table{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    text-align: left;
+    margin: 50px auto 30px auto;
+}
+
+body.page-orcamento-dominios .hostinger th{
+    background-color: #222;
+    color: #ffd712;
+    
+}
+body.page-orcamento-dominios .hostinger tr{
+    background-color: #ffffff;
+    
+}
+
+body.page-orcamento-dominios .loca{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffcc00;
+    width: 800px;
+    height: 450px;
+    margin: 50px auto 30px auto;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+    padding-top: 15px;
+}
+
+body.page-orcamento-dominios .loca h2{
+    background-color: #222;
+    color: #ffcc00;
+    width: 350px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 80px;
+   
+}
+
+body.page-orcamento-dominios .loca p{
+    justify-content: center;
+    font-size: 20px;
+    margin-left: 20px;
+    background-color: #222;
+    color: #fffdf5;
+    width: 600px;
+    border-radius: 30px; 
+}
+
+body.page-orcamento-dominios .loca table{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    text-align: left;
+    margin: 50px auto 30px auto;
+}
+
+body.page-orcamento-dominios .loca th{
+    background-color: #222;
+    color: #ffd712;
+    
+}
+body.page-orcamento-dominios .loca tr{
+    background-color: #ffffff;
+    
+}
+
+body.page-orcamento-dominios .comp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffcc00;
+    width: 800px;
+    height: 400px;
+    margin: 50px auto 30px auto;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+    padding-top: 15px;
+}
+
+body.page-orcamento-dominios .comp h2{
+    background-color: #222;
+    color: #ffcc00;
+    width: 350px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 80px;
+   
+}
+
+body.page-orcamento-dominios .comp p{
+    justify-content: center;
+    font-size: 20px;
+    margin-left: 20px;
+    background-color: #222;
+    color: #fffdf5;
+    width: 600px;
+    border-radius: 30px; 
+}
+
+body.page-orcamento-dominios .comp table{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    text-align: left;
+    margin: 50px auto 30px auto;
+}
+
+body.page-orcamento-dominios .comp th{
+    background-color: #222;
+    color: #ffd712;
+    
+}
+body.page-orcamento-dominios .comp tr{
+    background-color: #ffffff;
+    
+}
+
+body.page-orcamento-dominios .resumo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffcc00;
+    width: 800px;
+    height: 350px;
+    margin: 50px auto 30px auto;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+    padding-top: 15px;
+}
+
+body.page-orcamento-dominios .resumo h2{
+    background-color: #222;
+    color: #ffcc00;
+    width: 350px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 50px;
+   
+}
+
+body.page-orcamento-dominios .resumo p{
+    justify-content: center;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    background-color: #222;
+    color: #fffdf5;
+    width: 600px;
+    border-radius: 30px; 
+}
+
+body.page-orcamento-dominios footer{
+    width: 100%;
+    height: 500px;
+    background-color: #222;
+    border-radius:  8px;
+    text-decoration: wavy;
+    color: #cbf5e6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    margin: 0;
+
+}
+
+/* polipriv.css */
+body.page-polipriv{
+    background-color: #cbf5e6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body.page-polipriv header h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body.page-polipriv header h1 img {
+    position: absolute;
+    left: 165px;
+    top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+body.page-polipriv .barra_navegacao{
+    display: flex;
+    justify-content:space-between;
+    padding: 12px;
+    text-decoration: none;
+    background-color: #222;
+    border-radius: 60px;
+    font-size: 20px;
+}
+
+body.page-polipriv .barra_navegacao a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 40px;
+}
+
+body.page-polipriv .barra_navegacao a.ativo {
+    background-color: #ffcc00;
+    color: black;
+}
+
+body.page-polipriv .barra_navegacao a.ativo {
+    background-color: #ffcc00;
+    color: black;
+}
+body.page-polipriv a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+body.page-polipriv main{
+    background-color: #ffcc00;
+    border-radius: 10px;
+}
+
+body.page-polipriv section h2{
+    background-color: #222;
+    color: #ffcc00;
+    border-radius: 10px;
+}
+
+body.page-polipriv section a{
+    background-color: #222;
+    border-radius: 15px;
+    display: flex;
+    text-align: center;
+    justify-self: center;
+    width: 100px;
+    padding-left: 30px;
+}
+
+
+body.page-polipriv footer{
+    width: 100%;
+    height: 500px;
+    background-color: #222;
+    border-radius:  8px;
+    color: #cbf5e6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body.page-polipriv footer{
+    width: 100%;
+    height: 500px;
+    background-color: #222;
+    border-radius:  8px;
+    text-decoration: wavy;
+    color: #cbf5e6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* pop-up-reserva.css */
+body.page-pop-up-reserva{
+    background-color: #cbf5e6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body.page-pop-up-reserva header h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body.page-pop-up-reserva header h1 img {
+    position: absolute;
+    left: 165px;
+    top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+body.page-pop-up-reserva .barra_navegacao{
+    display: flex;
+    justify-content:space-between;
+    padding: 12px;
+    text-decoration: none;
+    background-color: #222;
+    border-radius: 60px;
+    font-size: 20px;
+}
+
+body.page-pop-up-reserva .barra_navegacao a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 40px;
+}
+
+body.page-pop-up-reserva .barra_navegacao a.ativo {
+    background-color: #ffcc00;
+    color: black;
+}
+
+body.page-pop-up-reserva .barra_navegacao a.ativo {
+    background-color: #ffcc00;
+    color: black;
+}
+body.page-pop-up-reserva a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+body.page-pop-up-reserva .popup {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffcc00;
+    width: 800px;
+    height: 300px;
+    margin: 100px auto;
+    padding-top: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+}
+
+body.page-pop-up-reserva .popup h2 {
+    justify-content: center;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 100px;
+    background-color: #222;
+    color: #ffcc00;
+    width: 600px;
+    border-radius: 30px; 
+}
+
+body.page-pop-up-reserva .popup a {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 400px;
+    height: 50px;
+    background-color: #0c0a57;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 30px;
+
+}
+
+/* pop_up_cadastro.css */
+body.page-pop-up-cadastro{
+    background-color: #cbf5e6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body.page-pop-up-cadastro header h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body.page-pop-up-cadastro header h1 img {
+    position: absolute;
+    left: 165px;
+    top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+body.page-pop-up-cadastro .barra_navegacao{
+    display: flex;
+    justify-content:space-between;
+    padding: 12px;
+    text-decoration: none;
+    background-color: #222;
+    border-radius: 60px;
+    font-size: 20px;
+}
+
+body.page-pop-up-cadastro .barra_navegacao a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 40px;
+}
+
+
+body.page-pop-up-cadastro .barra_navegacao a.ativo {
+    background-color: #ffcc00;
+    color: black;
+}
+
+body.page-pop-up-cadastro .barra_navegacao a.ativo {
+    background-color: #ffcc00;
+    color: black;
+}
+body.page-pop-up-cadastro a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+body.page-pop-up-cadastro .popup {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffcc00;
+    width: 800px;
+    height: 300px;
+    margin: 100px auto;
+    padding-top: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+    font-size: 28px;
+}
+
+body.page-pop-up-cadastro .popup h2 {
+    justify-content: center;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 100px;
+    background-color: #222;
+    color: #ffcc00;
+    width: 600px;
+    border-radius: 30px; 
+}
+
+body.page-pop-up-cadastro .popup a {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 400px;
+    height: 50px;
+    background-color: #0c0a57;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 30px;
+
+}
+
+/* pop_up_orcamento.css */
+body.page-pop-up-orcamento{
+    background-color: #cbf5e6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body.page-pop-up-orcamento header h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body.page-pop-up-orcamento header h1 img {
+    position: absolute;
+    left: 165px;
+    top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+body.page-pop-up-orcamento .barra_navegacao{
+    display: flex;
+    justify-content:space-between;
+    padding: 12px;
+    text-decoration: none;
+    background-color: #222;
+    border-radius: 60px;
+    font-size: 20px;
+}
+
+body.page-pop-up-orcamento .barra_navegacao a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 40px;
+}
+
+body.page-pop-up-orcamento .barra_navegacao a.ativo {
+    background-color: #ffcc00;
+    color: black;
+}
+
+body.page-pop-up-orcamento .barra_navegacao a.ativo {
+    background-color: #ffcc00;
+    color: black;
+}
+body.page-pop-up-orcamento a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+body.page-pop-up-orcamento .popup {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffcc00;
+    width: 800px;
+    height: 300px;
+    margin: 100px auto;
+    padding-top: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+}
+
+body.page-pop-up-orcamento .popup h2 {
+    justify-content: center;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 100px;
+    background-color: #222;
+    color: #ffcc00;
+    width: 600px;
+    border-radius: 30px; 
+}
+
+body.page-pop-up-orcamento .popup a {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 400px;
+    height: 50px;
+    background-color: #0c0a57;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 30px;
+
+}
+
+/* popup-contato.css */
+body.page-mensagem-contato{
+    background-color: #cbf5e6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body.page-mensagem-contato header h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body.page-mensagem-contato header h1 img {
+    position: absolute;
+    left: 165px;
+    top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+body.page-mensagem-contato .barra_navegacao{
+    display: flex;
+    justify-content:space-between;
+    padding: 12px;
+    text-decoration: none;
+    background-color: #222;
+    border-radius: 60px;
+    font-size: 20px;
+}
+
+body.page-mensagem-contato .barra_navegacao a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 40px;
+}
+
+body.page-mensagem-contato .barra_navegacao a.ativo {
+    background-color: #ffcc00;
+    color: black;
+}
+
+body.page-mensagem-contato .barra_navegacao a.ativo {
+    background-color: #ffcc00;
+    color: black;
+}
+body.page-mensagem-contato a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+body.page-mensagem-contato .popup {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffcc00;
+    width: 800px;
+    height: 300px;
+    margin: 100px auto;
+    padding-top: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+    font-size: 28px;
+}
+
+body.page-mensagem-contato .popup h2 {
+    justify-content: center;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 100px;
+    background-color: #222;
+    color: #ffcc00;
+    width: 600px;
+    border-radius: 30px; 
+}
+
+body.page-mensagem-contato .popup a {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 400px;
+    height: 50px;
+    background-color: #0c0a57;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 30px;
+
+}
+
+/* reserva.css */
+body.page-reservas{
+    background-color:  #cbf5e6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body.page-reservas header h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body.page-reservas header h1 img {
+    position: absolute;
+    left: 165px;
+    top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+body.page-reservas .barra_navegacao{
+    display: flex;
+    justify-content:space-between;
+    padding: 12px;
+    text-decoration: none;
+    background-color: #222;
+    border-radius: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+body.page-reservas .barra_navegacao a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 40px;
+}
+
+body.page-reservas .barra_navegacao a.ativo {
+    background-color: #ffcc00;
+    color: black;
+}
+
+body.page-reservas a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+body.page-reservas button{
+    background-color: aliceblue;
+    border-radius: 30px;
+    font-family: poppins;
+}
+
+body.page-reservas main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                  
+    text-align: center;
+}
+body.page-reservas section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                  
+    text-align: center;
+}
+
+body.page-reservas .reserva{
+    background-color: #ffd712;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    width: 600px;   
+    height: 200px;  
+    margin: 0 auto;     
+    text-align: center;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    gap: 30px;                 
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body.page-reservas .reserva h2{
+    background-color: #222;
+    color: #ffcc00;
+    width: 250px;
+    border-radius: 15px;
+}
+body.page-reservas .reserva p{
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+body.page-reservas .imagem-reserva{
+    background-color: #ffd712;
+    width: 800px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+}
+
+body.page-reservas .imagem-reserva img{
+    width: 600px;
+    border-radius: 15px;
+}
+
+body.page-reservas .imagem-reserva h2{
+    background-color: #222;
+    color: #ffcc00;
+    width: 250px;
+    border-radius: 15px;
+}
+
+body.page-reservas .imagem-reserva h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #222;
+    border-radius: 30px;
+    color: aliceblue;
+   
+}
+ body.page-reservas .imagem-reserva p{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #222;
+    border-radius: 30px;
+    color: aliceblue;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    
+}
+
+body.page-reservas .cadastro-reserva{
+    background-color: #ffd712;
+    width: 600px;
+    height: 650px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #222;
+}
+
+body.page-reservas .cadastro-reserva h2{
+    background-color: #222;
+    width: 200px;
+    border-radius: 15px;
+    color: #ffcc00;
+}
+
+body.page-reservas .cadastro-reserva form{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body.page-reservas .cadastro-reserva input{
+    border-radius: 15px;
+}
+
+body.page-reservas .cadastro-reserva label{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: #222;
+    color: aliceblue;
+    border-radius: 7px;
+}
+body.page-reservas .cadastro-reserva textarea{
+    border-radius: 15px;
+}
+
+body.page-reservas .cadastro-reserva a{
+    display: inline-block;
+    width: 200px;
+    background-color: #280d51;
+    padding: 10px;
+    border-radius: 15px;
+}
+body.page-reservas .card-tabela{
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 200px;
+    border-radius: 30px;
+    background-color: #f7c319;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body.page-reservas .card-tabela table{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    width: 80%;
+    border: #0c6674 ;
+    text-align: left;
+}
+
+body.page-reservas .card-tabela th{
+    background-color: #222;
+    color: #ffd712;
+    border-radius: 5px;
+}
+body.page-reservas .card-tabela tr{
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+
+body.page-reservas footer{
+    width: 100%;
+    height: 500px;
+    background-color: #222;
+    border-radius:  8px;
+    color: #cbf5e6;
+    text-decoration: wavy;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* turma.css */
+body.page-turmas{
+    background-color: #cbf5e6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body.page-turmas header h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body.page-turmas header h1 img{
+    position: absolute;
+    left: 165px; 
+    top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+body.page-turmas .barra_navegacao{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: #222;
+    border-radius: 60px;
+    font-size: 20px;
+}
+
+body.page-turmas .barra_navegacao a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 40px;
+}
+
+body.page-turmas .barra_navegacao a.ativo{
+    background-color: #ffcc00;
+    color: black;
+}
+
+body.page-turmas main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+
+
+ 
+body.page-turmas .turmas{
+    width: 800px;
+    height: 600px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 0 4px 15px #222;
+    text-align: center;
+    background-color: #ffcc00;
+}
+
+body.page-turmas .turmas p{
+    justify-content: center;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 30px;
+    background-color: #222;
+    color: #fffdf5;
+    width: 600px;
+    border-radius: 30px; 
+}
+
+body.page-turmas .turmas h2{
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 100px;
+    background-color: #222;
+    color: #ffcc00;
+    width: 300px;
+    border-radius: 30px; 
+    margin-left: 50px;
+}
+
+body.page-turmas .turmas table{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    text-align: left;
+    margin: 50px auto 30px auto;
+}
+
+body.page-turmas .turmas th{
+    background-color: #222;
+    color: #ffd712;
+    border-radius: 5px;
+}
+body.page-turmas .turmas tr{
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+body.page-turmas footer{
+    width: 100%;
+    min-height: 500px;
+    background-color: #222;
+    border-radius: 8px;
+    color: #cbf5e6;
+}
+
+body.page-turmas footer a{
+    color: aliceblue;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: wavy;
+}
+
+/* unidades.css */
+body.page-unidades{
+    background-color: #cbf5e6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body.page-unidades header h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body.page-unidades header h1 img{
+    position: absolute;
+    left: 165px; 
+    top: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+body.page-unidades .barra_navegacao{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: #222;
+    border-radius: 60px;
+    font-size: 20px;
+}
+
+body.page-unidades .barra_navegacao a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 40px;
+}
+
+body.page-unidades .barra_navegacao a.ativo{
+    background-color: #ffcc00;
+    color: black;
+}
+
+body.page-unidades main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+body.page-unidades section{
+    background-color: #ffcc00;
+    border-radius: 30px ;
+    box-shadow: 0 4px 15px #222;
+}
+
+body.page-unidades section h2{
+    background-color: #222;
+    color: #ffcc00;
+    width: 400px;
+    justify-self: center;
+    border-radius: 10px;
+    text-align: center;
+}
+
+body.page-unidades section p{
+    width: 800px;
+    font-size: 16px;
+}
+
+body.page-unidades .descricao{
+    background-color: #222;
+    width: 700px;
+    justify-self: center;
+    border-radius: 15px;
+    color: #ffcc00;
+
+}
+
+
+body.page-unidades footer{
+    width: 100%;
+    height: 500px;
+    background-color: #222;
+    color: #cbf5e6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: wavy;
+}
+
