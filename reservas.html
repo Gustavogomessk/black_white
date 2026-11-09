@@ -101,18 +101,18 @@
 
                 <h2>Nova Reserva</h2>
 
-                <form>
+                <form action="pop_up_reserva.html" method="get">
 
                     <label for="socio">Nome:</label>
                     <br>
-                    <input type="text" id="socio" name="socio">
+                    <input type="text" id="socio" required>
 
                     <br><br>
 
                     <label for="espaco">Espaço:</label>
                     <br>
 
-                    <select id="espaco" name="espaco">
+                    <select id="espaco" required>
                         <option value="">Selecione</option>
                         <option value="quadra">Quadra esportiva</option>
                         <option value="piscina">Piscina</option>
@@ -123,24 +123,24 @@
 
                     <label for="data">Data:</label>
                     <br>
-                    <input type="date" id="data" name="data">
+                    <input type="date" id="data" required>
 
                     <br><br>
 
                     <label for="horario">Horário:</label>
                     <br>
-                    <input type="time" id="horario" name="horario">
+                    <input type="time" id="horario" required>
 
                     <br><br>
 
                     <label for="observacao">Observações:</label>
                     <br>
-                    <textarea id="observacao" name="observacao"
-                        rows="5" cols="40"></textarea>
+                    <textarea id="observacao"
+                        rows="5" cols="40" required></textarea>
 
                     <br><br>
 
-                    <a href="pop_up_reserva.html">Concluir Reserva</a>
+                    <button type="submit">Concluir Reserva</button>
 
                 </form>
 
